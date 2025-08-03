@@ -90,13 +90,13 @@ const FacialEmotionDetector = () => {
   };
 
   return (
-    <div className="min-h-screen bg-background py-8 px-4">
+    <div className="min-h-screen py-8 px-4" style={{ background: 'var(--gradient-bg)' }}>
       <div className="max-w-2xl mx-auto">
-        <Card className="shadow-lg border-0 bg-card">
+        <Card className="shadow-2xl border-0 bg-card/90 backdrop-blur-sm">
           <CardHeader className="text-center pb-6">
             <div className="flex justify-center mb-4">
-              <div className="p-3 bg-primary/10 rounded-full">
-                <Brain className="w-8 h-8 text-primary" />
+              <div className="p-4 rounded-full" style={{ background: 'var(--gradient-primary)' }}>
+                <Brain className="w-8 h-8 text-white" />
               </div>
             </div>
             <CardTitle className="text-3xl font-bold text-foreground">

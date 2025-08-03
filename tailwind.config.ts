@@ -60,6 +60,11 @@ export default {
 					DEFAULT: 'hsl(var(--success))',
 					foreground: 'hsl(var(--success-foreground))'
 				},
+				gradient: {
+					primary: 'var(--gradient-primary)',
+					secondary: 'var(--gradient-secondary)',
+					bg: 'var(--gradient-bg)'
+				},
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
