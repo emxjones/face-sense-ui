@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
-import { Brain } from 'lucide-react';
+import { Smile } from 'lucide-react';
 import { useToast } from '@/hooks/use-toast';
 import UploadBox from './UploadBox';
 import Loader from './Loader';
@@ -96,7 +96,7 @@ const FacialEmotionDetector = () => {
           <CardHeader className="text-center pb-6">
             <div className="flex justify-center mb-4">
               <div className="p-4 rounded-full" style={{ background: 'var(--gradient-primary)' }}>
-                <Brain className="w-8 h-8 text-white" />
+                <Smile className="w-8 h-8 text-white" />
               </div>
             </div>
             <CardTitle className="text-3xl font-bold text-foreground">
@@ -120,7 +120,7 @@ const FacialEmotionDetector = () => {
                   size="lg"
                   className="px-8"
                 >
-                  <Brain className="w-4 h-4 mr-2" />
+                  <Smile className="w-4 h-4 mr-2" />
                   Analyze Emotion
                 </Button>
               </div>
